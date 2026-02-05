@@ -49,3 +49,46 @@ nav ul {
 nav ul li a:hover {
   color: #f59e0b;
 }
+/* hero */
+
+.hero{
+  height:90vh;
+  background:url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:#fff;
+  position:relative;
+}
+
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.55);
+}
+
+.hero-content{
+  position:relative;
+  max-width:600px;
+  z-index: 900;
+}
+
+.hero h1{
+  font-size:3rem;
+  margin-bottom:1rem;
+}
+
+.hero p{
+  margin-bottom:1.5rem;
+}
+
+.btn{
+  display:inline-block;
+  padding:0.75rem 1.5rem;
+  background:#f59e0b;
+  color:#ffffff;
+  border-radius:5px;
+  font-weight:bold;
+}
