@@ -4,32 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniture Store Project</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="h.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-
-    <!-- header -->
-     <header>
+  <header>
     <nav>
       <div class="logo">Furniture Shop</div>
       
       <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <i class="fas fa-bars" id="bar-icon"></i>
+        <i class="fas fa-times" id="close-icon"></i>
       </div>
+
       <ul id="nav-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="product.html">Product</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact-us.html">Services</a></li>
-        <li><a href="contact-us.html">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Product</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <!-- hero -->
-
-  <!-- ===== HERO ===== -->
+  
   <section class="hero" id="home">
     <div class="hero-content">
       <h1>Alaab Casri ah oo Tayeysan</h1>
@@ -38,6 +35,145 @@
     </div>
   </section>
 
-  
+  <section id="products">
+    <h2>Our Products</h2>
+    <h3 class="product-title">Alaabta Banaanka Laga Soo Dhoofiyay</h3>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/20285350/pexels-photo-20285350.jpeg" alt="">
+        <div class="card-body">
+          <h3>Luxury Chair</h3>
+          <p class="price">$120</p>
+        </div>
+        <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/376531/pexels-photo-376531.jpeg" alt="">
+        <div class="card-body">
+          <h3>ohio Chair</h3>
+          <p class="price">$250</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/7027978/pexels-photo-7027978.jpeg" alt="">
+        <div class="card-body">
+          <h3>149BC Chair</h3>
+          <p class="price">$320</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2029663/pexels-photo-2029663.jpeg" alt="">
+        <div class="card-body">
+          <h3>Imported Sofa</h3>
+          <p class="price">$650</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+    </div>
+
+    <h3 class="product-title">Alaabta Gudaha Lagu Farsameeyay</h3>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/112474/pexels-photo-112474.jpeg" alt="">
+        <div class="card-body">
+          <h3>Local Office Table</h3>
+          <p class="price">$180</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/15308556/pexels-photo-15308556.jpeg" alt="">
+        <div class="card-body">
+          <h3>b54 Office Table</h3>
+          <p class="price">$280</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1855214/pexels-photo-1855214.jpeg" alt="">
+        <div class="card-body">
+          <h3>A120 Office Table</h3>
+          <p class="price">$380</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/9420752/pexels-photo-9420752.jpeg" alt="">
+        <div class="card-body">
+          <h3>Wooden Table</h3>
+          <p class="price">$400</p>
+        </div>
+         <a href="#products" class="btn-1">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-container" id="about">
+    <div class="about-section">
+        <div class="about-image">
+            <img src="https://images.pexels.com/photos/5486130/pexels-photo-5486130.jpeg" alt="img">
+        </div>
+        <div class="about-content">
+            <h2>Tayo iyo Hal-abuurnimo Isku Dhafan</h2>
+            <p>Maxaad noo dooranaysaa? Sababtoo ah ma tanaasulno markay timaaddo tayada. Waxaan isticmaalna qalabka ugu adkeysiga badan si aan u hubinno in alaabtaadu ay kuu adeegto sanado badan.</p>
+            <a href="#" class="btn-contact">Nala soo xariir</a>
+        </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services">
+            <div class="service-box">Free Delivery</div>
+            <div class="service-box">Custom Design</div>
+            <div class="service-box">Quality Materials</div>
+            <div class="service-box">24/7 Support</div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Send Message Us</button>
+        </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 FurnitureStore. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    const barIcon = document.getElementById('bar-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      
+      if (navMenu.classList.contains('active')) {
+        barIcon.style.display = 'none';
+        closeIcon.style.display = 'block';
+      } else {
+        barIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      }
+    });
+
+    document.querySelectorAll('#nav-menu li a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        barIcon.style.display = 'block';
+        closeIcon.style.display = 'none';
+      });
+    });
+  </script>
 </body>
 </html>
